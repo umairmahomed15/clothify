@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Clothify</title>
+</head>
+
+<body id="home">
+
+    <nav class="navbar">
+        <div class="logo-container">
+            <a href="index.html"><img src="logo.svg" alt="logo" class="logo"></a>
+        </div>
+
+        <div class="nav-icons">
+            <div class="search-bar">
+                <input type="text" placeholder="Search" id="search-input">
+                <button id="search-btn">
+                    <img src="search.svg" alt="Search" class="search-icon">
+                </button>
+            </div>
+
+            <div class="shopping">
+                <img src="heart.svg" alt="Like">
+                <img src="cart.svg" alt="Cart">
+                <img src="person.svg" alt="Account">
+            </div>
+        </div>
+
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span class="menu-icon">☰</span>
+            <span class="close-menu">✕</span>
+        </button>
+
+        <div class="links" id="navLinks">
+            <ul>
+                <li>
+                    <h4><a href="index.html">Home</a></h4>
+                </li>
+                <li>
+                    <h4><a href="#products">Products</a></h4>
+                </li>
+                <li>
+                    <h4><a href="#about">About</a></h4>
+                </li>
+                <li>
+                    <h4><a href="#contact">Contact</a></h4>
+                </li>
+            </ul>
+            <div class="search-bar mobile-search" style="display: none;">
+                <input type="text" placeholder="Search" id="mobile-search-input">
+                <button id="mobile-search-btn">
+                    <img src="search.svg" alt="Search" class="search-icon">
+                </button>
+            </div>
+        </div>
+
+    </nav>
+
+    <header class="hero">
+        <div class="hero-image">
+            <img src="hero-image.svg" alt="Man In Clothing">
+        </div>
+
+        <div class="hero-content">
+            <div class="text">
+                <h1>Clothify, Wear Your Confidence</h1>
+                <p>Discover fashion that speaks your style. From everyday essentials to statement pieces, Clothify
+                    brings you clothing
+                    that's as unique as you are.</p>
+            </div>
+
+            <div class="hero-cta">
+                <h4><a href="#products">Shop Now</a></h4>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="products-heading">
+            <h2 id="products">Our Products</h2>
+        </div>
+
+        <div class="products">
+            <div class="sneakers">
+                <div class="category-name">
+                    <h2>Sneakers</h2>
+                </div>
+                <div class="products-grid">
+                    <div class="product-item brown-tekkie">
+                        <div class="product-image">
+                            <a href="#"><img src="nike-brown-tekkie-image.svg" alt="Brown Sneaker"
+                                    loading="lazy"></a>
+                        </div>
+                        <div class="product-text">
+                            <h2>R3200</h2>
+                            <h4>Nike Air Max TL 2.5</h4>
+                        </div>
+                    </div>
+
+                    <div class="product-item green-tekkie">
+                        <div class="product-image">
+                            <a href="#"><img src="nike-green-tekkie-image.svg" alt="Green Tekkie"
+                                    loading="lazy"></a>
+                        </div>
+                        <div class="product-text">
+                            <h2>R2200</h2>
+                            <h4>Nike Air Force 1 '07</h4>
+                        </div>
+                    </div>
+
+                    <div class="product-item white-tekkie">
+                        <div class="product-image">
+                            <a href="#"><img src="nike-white-tekkie-image.svg" alt="White Sneaker"
+                                    loading="lazy"></a>
+                        </div>
+                        <div class="product-text">
+                            <h2>R2400</h2>
+                            <h4>Nike Shoz NZ</h4>
+                        </div>
+                    </div>
+
+                    <div class="product-item white-tekkie-2">
+                        <div class="product-image">
+                            <a href="#"><img src="nike-white-tekkie-2-image.svg" alt="White 2 Sneaker"
+                                    loading="lazy"></a>
+                        </div>
+                        <div class="product-text">
+                            <h2>R2000</h2>
+                            <h4>Nike Winflo 11</h4>
+                        </div>
+                    </div>
+
+                    <div class="product-item white-tekkie-3">
+                        <div class="product-image">
+                            <a href="#"><img src="white-tekkie-image.svg" alt="White 3 Sneaker"
+                                    loading="lazy"></a>
+                        </div>
+                        <div class="product-text">
+                            <h2>R1600</h2>
+                            <h4>Under Armour UA Essential Runner</h4>
+                        </div>
+                    </div>
+
+                    <div class="product-item navy-tekkie">
+                        <div class="product-image">
+                            <a href="#"><img src="polo-navy-tekkie-image.svg" alt="Navy Sneaker"
+                                    loading="lazy"></a>
+                        </div>
+                        <div class="product-text">
+                            <h2>R1800</h2>
+                            <h4>Polo Retro Runner - Navy</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shirts">
+                <div class="category-name">
+                    <h2>Shirts</h2>
+                </div>
+                <div class="products-grid">
+                    <div class="product-item blue-shirt">
+                        <div class="product-image">
+                            <a href="#"><img src="blue-shirt-image.svg" alt="Blue Shirt" loading="lazy"></a>
+                        </div>
+                        <div class="product-text">
+                            <h2>R250</h2>
+                            <h4>H&M Loose Fit T-Shirt - Dark Blue</h4>
+                        </div>
+                    </div>
+
+                    <div class="product-item gray-shirt">
+                        <div class="product-image">
+                            <a href="#"><img src="gray-shirt-image.svg" alt="Gray Shirt" loading="lazy"></a>
+                        </div>
+                        <div class="product-text">
+                            <h2>R250</h2>
+                            <h4>H&M Slim Fit Shirt - Dark Grey</h4>
+                        </div>
+                    </div>
+
+                    <div class="product-item green-shirt">
+                        <div class="product-image">
+                            <a href="#"><img src="green-shirt-image.svg" alt="Green Shirt" loading="lazy"></a>
+                        </div>
+                        <div class="product-text">
+                            <h2>R800</h2>
+                            <h4>Pringle Austyn Pique Golfer - Fatigue</h4>
+                        </div>
+                    </div>
+
+                    <div class="product-item light-blue-shirt">
+                        <div class="product-image">
+                            <a href="#"><img src="light-blue-shirt-image.svg" alt="Light Blue Shirt"
+                                    loading="lazy"></a>
+                        </div>
+                        <div class="product-text">
+                            <h2>R500</h2>
+                            <h4>Slim Fit Collared Shirt - Light Blue</h4>
+                        </div>
+                    </div>
+
+                    <div class="product-item red-shirt">
+                        <div class="product-image">
+                            <a href="#"><img src="red-shirt-image.svg" alt="Red Shirt" loading="lazy"></a>
+                        </div>
+                        <div class="product-text">
+                            <h2>R300</h2>
+                            <h4>H&M Slim Fit Shirt - Red</h4>
+                        </div>
+                    </div>
+
+                    <div class="product-item white-shirt">
+                        <div class="product-image">
+                            <a href="#"><img src="white-shirt-image.svg" alt="White Shirt" loading="lazy"></a>
+                        </div>
+                        <div class="product-text">
+                            <h2>R1000</h2>
+                            <h4>Mango Camisa Play - White</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="jeans">
+                <div class="category-name">
+                    <h2>Jeans</h2>
+                </div>
+                <div class="products-grid">
+                    <div class="product-item black-jeans">
+                        <div class="product-image">
+                            <a href="#"><img src="black-jeans-image.svg" alt="Black Jeans" loading="lazy"></a>
+                        </div>
+                        <div class="product-text">
+                            <h2>R600</h2>
+                            <h4>H&M Loose Straight Jeans - Denim Black</h4>
+                        </div>
+                    </div>
+
+                    <div class="product-item blue-jeans">
+                        <div class="product-image">
+                            <a href="#"><img src="blue-jeans-image.svg" alt="Blue Jeans" loading="lazy"></a>
+                        </div>
+                        <div class="product-text">
+                            <h2>R1300</h2>
+                            <h4>Mango Jeans Lori - Blue Denim</h4>
+                        </div>
+                    </div>
+
+                    <div class="product-item gray-jeans">
+                        <div class="product-image">
+                            <a href="#"><img src="gray-jeans-image.svg" alt="Gray Jeans" loading="lazy"></a>
+                        </div>
+                        <div class="product-text">
+                            <h2>R800</h2>
+                            <h4>Loose Fit Cargo Denim Jeans Charcoal</h4>
+                        </div>
+                    </div>
+
+                    <div class="product-item light-chino-jeans">
+                        <div class="product-image">
+                            <a href="#"><img src="light-chino-jeans-image.svg" alt="Light Chino Jeans"
+                                    loading="lazy"></a>
+                        </div>
+                        <div class="product-text">
+                            <h2>R1200</h2>
+                            <h4>Mango Jeans Benc - Sand</h4>
+                        </div>
+                    </div>
+
+                    <div class="product-item light-green-jeans">
+                        <div class="product-image">
+                            <a href="#"><img src="light-green-jeans-image.svg" alt="Light Green Jeans"
+                                    loading="lazy"></a>
+                        </div>
+                        <div class="product-text">
+                            <h2>R2800</h2>
+                            <h4>G-Star Bronson 3.0 Slim Chino</h4>
+                        </div>
+                    </div>
+
+                    <div class="product-item white-jeans">
+                        <div class="product-image">
+                            <a href="#"><img src="white-jeans-image.svg" alt="White Jeans" loading="lazy"></a>
+                        </div>
+                        <div class="product-text">
+                            <h2>R500</h2>
+                            <h4>Tapered Fit Rigid White Jeans</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-contact">
+            <div class="about" id="about">
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>Founded in 2020, Clothify has been redefining fashion with a focus on style, sustainability, and
+                        accessibility.
+                        From our very first collection, we set out to create clothing that empowers individuals to
+                        express themselves
+                        confidently while staying true to their values.
+                    </p>
+                    <p>Since 2020, we've grown into a trusted brand that blends modern design with timeless comfort. Our
+                        mission is to
+                        deliver high-quality apparel that not only looks good but also feels good—crafted with
+                        eco-friendly materials
+                        and ethical production practices. Every piece reflects our dedication to both fashion and
+                        responsibility.
+                    </p>
+                    <p>Clothify is more than just a clothing company; it's a community. We collaborate with local
+                        artisans, support
+                        emerging designers, and give back through initiatives that inspire and uplift. Our customers are
+                        at the heart
+                        of everything we do, and we continue to evolve by listening, adapting, and innovating.
+                    </p>
+                    <p>Whether you're refreshing your wardrobe or exploring sustainable fashion, Clothify has been here
+                        since 2020 to
+                        guide you every step of the way. Together, we're shaping a future where fashion is inclusive,
+                        responsible, and unforgettable.
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact" id="contact">
+                <div class="contact-text">
+                    <h2>Contact Us</h2>
+                    <ul>
+                        <li>
+                            <p>Email:</p>
+                        </li>
+                        <li>
+                            <p>info@clothify.com</p>
+                        </li>
+                        <li>
+                            <p>Phone:</p>
+                        </li>
+                        <li>
+                            <p>+27 12 345 6789</p>
+                        </li>
+                        <li>
+                            <p>Address:</p>
+                        </li>
+                        <li>
+                            <p>123 Fashion Street, Cape Town, South Africa</p>
+                        </li>
+                    </ul>
+
+                    <p class="contact-form-request">Or simply send us a message using the form below and our team will
+                        get back to you as soon as possible.</p>
+                </div>
+
+                <div class="contact-form">
+                    <form action="#" method="post">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-text">
+            <p>&copy; 2026 Clothify. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        const menuIcon = document.querySelector('.menu-icon');
+        const closeMenu = document.querySelector('.close-menu');
+        const mobileSearchBar = document.querySelector('.mobile-search');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            if (navLinks.classList.contains('active')) {
+                menuIcon.style.display = 'none';
+                closeMenu.style.display = 'inline';
+                mobileSearchBar.style.display = 'flex';
+            } else {
+                menuIcon.style.display = 'inline';
+                closeMenu.style.display = 'none';
+                mobileSearchBar.style.display = 'none';
+            }
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                menuIcon.style.display = 'inline';
+                closeMenu.style.display = 'none';
+                mobileSearchBar.style.display = 'none';
+            });
+        });
+
+        // Search functionality
+        const searchBtn = document.getElementById('search-btn');
+        const searchInput = document.getElementById('search-input');
+        const mobileSearchBtn = document.getElementById('mobile-search-btn');
+        const mobileSearchInput = document.getElementById('mobile-search-input');
+
+        const performSearch = (query) => {
+            if (query.trim() !== '') {
+                alert(`Searching for: ${query}`);
+                // In a real implementation, you would redirect to search results
+                // window.location.href = `search.html?q=${encodeURIComponent(query)}`;
+            }
+        };
+
+        if (searchBtn && searchInput) {
+            searchBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                performSearch(searchInput.value);
+            });
+
+            searchInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    performSearch(searchInput.value);
+                }
+            });
+        }
+
+        if (mobileSearchBtn && mobileSearchInput) {
+            mobileSearchBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                performSearch(mobileSearchInput.value);
+            });
+
+            mobileSearchInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    performSearch(mobileSearchInput.value);
+                }
+            });
+        }
+
+        // Fix for product image overflow on hover
+        document.querySelectorAll('.product-item').forEach(item => {
+            item.addEventListener('mouseenter', function () {
+                const img = this.querySelector('img');
+                img.style.transform = 'scale(1.05)';
+            });
+
+            item.addEventListener('mouseleave', function () {
+                const img = this.querySelector('img');
+                img.style.transform = 'scale(1)';
+            });
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!navLinks.contains(e.target) && !hamburger.contains(e.target) && navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+                menuIcon.style.display = 'inline';
+                closeMenu.style.display = 'none';
+                mobileSearchBar.style.display = 'none';
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    const headerHeight = document.querySelector('.navbar').offsetHeight;
+                    const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
