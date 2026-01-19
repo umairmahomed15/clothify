@@ -335,8 +335,8 @@
      max-height: 100%;
      object-fit: contain;
      transition: transform 0.3s ease;
-     width: 200px;
-     height: 200px;
+     width: 400px;
+     height: 400px;
  }
 
  .product-item:hover .product-image img {
@@ -352,7 +352,7 @@
 
  .product-text h2 {
      color: #333;
-     font-size: 1.5rem;
+     font-size: 1rem;
      margin-bottom: 0.5rem;
  }
 
@@ -820,4 +820,5 @@
          text-decoration: none;
          color: black;
      }
+
  }
